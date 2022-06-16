@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Menu | Osteria D'Alaura</title>
+	<link href="styles.css" rel="stylesheet"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div id="website_title">	
+			<h1 id="restaurant_name">Osteria D'Alaura</h1>
+		
+				<nav class="sitenav">
+					<ul id="nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="menu.html" class="current">Menu</a></li>
+						<li><a href="location.html">Locations</a></li>
+						<li><a href="contact.php">Contact Us</a></li>
+            <li id="nav_address">1600 Chester Ave, Bremerton, WA 98337</li>
+            <li id="nav_phone">(640) 733-7062</li>
+       </div>     
+					</ul>
+				</nav>
+	
+<body>
+<div id="menu">
+<h1 id="menu_h1">il menù</h1> 
+<form action="projectmenu.php" method="get" id='myform'>
+  
+<div class="menu_item">
+<img src="chickenA.jpg" width="300" height="200"><br>
+<input type="number" name="chickenAQty" value="a" class="qty" id="a"> Chicken Alfredo $15.99 
+</div>
+            
+<div class="menu_item">
+<img src="spaghetti.jpg" width="300" height="200"><br>
+<input type="number" name="spaghettiQty" value="b" class="qty" id="b"> Spaghetti $12.50 
+</div>
+  
+<div class="menu_item">
+<img src="lasagna.jpg" width="300" height="200"><br>
+<input type="number" name="lasagnaQty" value="c" class="qty" id="c"> Lasagna $14.99 
+</div>
+  
+<div class="menu_item">
+<img src="salad.jpg" width="300" height="200"><br>
+<input type="number" name="saladQty" value="d" class="qty" id="d"> House Salad $8.99 
+</div>
+  
+<div class="menu_item">
+<img src="soup.jpg" width="300" height="200"><br>
+<input type="number" name="soupQty" value="e" class="qty" id="e"> Homemade Soup $5.00 
+</div>
+  
+<div class="menu_item">
+<img src="salmon.jpg" width="300" height="200"><br>
+<input type="number" name="salmonQty" value="f" class="qty" id="f"> Grilled Salmon $24.99 
+</div>
+  
+<div class="menu_item">
+<img src="shells.jpg" width="300" height="200"><br>
+<input type="number" name="shellsQty" value="g" class="qty" id="g"> Stuffed Shells $10.50 
+</div>
+  
+<div class="menu_item">
+<img src="ziti.jpg" width="300" height="200"> <br>
+<input type="number" name="zitiQty" value="h" class="qty" id="h"> Five Chesse Ziti $12.50  
+</div>
+  
+<div class="menu_item">
+<img src="shrimp.jpg" width="300" height="200"> <br>
+<input type="number" name="scampiQty" value="i" class="qty" id="i"> Shrimp Scampi $25.50   
+</div>
+<input id="prc" type="submit" value="Submit Order"/> 
+</form>
+<footer>
+Copyright &copy; <?php echo date('Y');?>. All rights are reserved
+
+</footer>
+</body>	
+
+
+
+</html>
