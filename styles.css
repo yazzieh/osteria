@@ -32,6 +32,7 @@ body{
   padding:0;
   overflow:hidden;
   background-color: #333;
+  max-width:100%;
 }
 .sitenav li {
   float:left;
@@ -97,14 +98,15 @@ body{
 }
 .center_txt{
   position:absolute;
-  font-size:100px;
-  font-family: 'Bebas Neue', cursive;
-  top:20%;
-  left:39%;
-  tranform:translate(-50%,-50%);
-  column-count:1;
-  width:33%;
+  font-size:60px;
+  font-family: 'Roboto Condensed', sans-serif;
+  top:15%;
+  left:20%;
+  width:66%;
   text-align:left;
+  background: rgba(255, 255, 255, 0.5);
+  padding:1em;
+  color:black;
 }
 .left_txt {
   position: absolute;
@@ -175,6 +177,13 @@ body{
  display: block;
  margin-left: auto;
  margin-right: auto;
+}
+.elfsight-app-59224c69-c203-4410-a492-c5480979a09f{
+margin-top:15em;
+padding:2em;
+left:30%;
+max-width:40%;
+font-family: 'Bebas Neue', cursive;
 }
 .fresh_img{
   max-width:100%;

@@ -36,50 +36,53 @@
   
 <div class="menu_item">
 <img src="chickenA.jpg" width="300" height="200"><br>
-<input type="number" name="chickenAQty" value="a" class="qty" id="a"> Chicken Alfredo $15.99 
+<input type="number" name="qty[]" value="0" class="qty" id="chickenAQty" min="0" max="5"> Chicken Alfredo $15.99 
 </div>
             
 <div class="menu_item">
 <img src="spaghetti.jpg" width="300" height="200"><br>
-<input type="number" name="spaghettiQty" value="b" class="qty" id="b"> Spaghetti $12.50 
+<input type="number" name="qty[]" value="0" class="qty" id="spaghettiQty" min="0" max="5"> Spaghetti $12.50 
 </div>
   
 <div class="menu_item">
 <img src="lasagna.jpg" width="300" height="200"><br>
-<input type="number" name="lasagnaQty" value="c" class="qty" id="c"> Lasagna $14.99 
+<input type="number" name="qty[]" value="0" class="qty" id="lasagnaQty" min="0" max="5"> Lasagna $14.99 
 </div>
   
 <div class="menu_item">
 <img src="salad.jpg" width="300" height="200"><br>
-<input type="number" name="saladQty" value="d" class="qty" id="d"> House Salad $8.99 
+<input type="number" name="qty[]" value="0" class="qty" id="saladQty" min="0" max="5"> House Salad $8.99 
 </div>
   
 <div class="menu_item">
 <img src="soup.jpg" width="300" height="200"><br>
-<input type="number" name="soupQty" value="e" class="qty" id="e"> Homemade Soup $5.00 
+<input type="number" name="qty[]" value="0" class="qty" id="soupQty" min="0" max="5"> Homemade Soup $5.00 
 </div>
   
 <div class="menu_item">
 <img src="salmon.jpg" width="300" height="200"><br>
-<input type="number" name="salmonQty" value="f" class="qty" id="f"> Grilled Salmon $24.99 
+<input type="number" name="qty[]" value="0" class="qty" id="salmonQty" min="0" max="5"> Grilled Salmon $24.99 
 </div>
   
 <div class="menu_item">
 <img src="shells.jpg" width="300" height="200"><br>
-<input type="number" name="shellsQty" value="g" class="qty" id="g"> Stuffed Shells $10.50 
+<input type="number" name="qty[]" value="0" class="qty" id="shellsQty" min="0" max="5"> Stuffed Shells $10.50 
 </div>
   
 <div class="menu_item">
 <img src="ziti.jpg" width="300" height="200"> <br>
-<input type="number" name="zitiQty" value="h" class="qty" id="h"> Five Chesse Ziti $12.50  
+<input type="number" name="qty[]" value="0" class="qty" id="zitiQty" min="0" max="5"> Five Chesse Ziti $12.50  
 </div>
   
 <div class="menu_item">
 <img src="shrimp.jpg" width="300" height="200"> <br>
-<input type="number" name="scampiQty" value="i" class="qty" id="i"> Shrimp Scampi $25.50   
+<input type="number" name="qty[]" value="0" class="qty" id="scampiQty" min="0" max="5"> Shrimp Scampi $25.50   
 </div>
 <input id="prc" type="submit" value="Submit Order"/> 
 </form>
+<br><h3>Order Summary:</h3>
+<p id="ARmsg"></p>
+
 <footer>
 Copyright &copy; <?php echo date('Y');?>. All rights are reserved
 
