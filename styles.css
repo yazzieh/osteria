@@ -4,7 +4,9 @@
 html {
 	background: #ffffff;  
 	}
-
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
 #website_title{
   position: fixed; 
   background-color:white;
@@ -283,4 +285,7 @@ footer{
 .social_footer{
 	float:right;
 	margin-right:1em;
+}
+#container{
+  font-family: 'Roboto Condensed', sans-serif;
 }

@@ -163,11 +163,7 @@
 	<!-- define page footer -->
 	<footer>
 Copyright &copy; <?php echo date('Y');?>. All rights are reserved
-<img src="facebook.png" width="30" height="30" class="social_footer" alt="Author Dave Gandy, OFL: https://commons.wikimedia.org/wiki/File:Facebook_font_awesome.svg">
-<img src="instagram.png" width="30" height="30" class="social_footer" alt="Author Dave Gandy, OFL: https://commons.wikimedia.org/wiki/File:Instagram_font_awesome.svg">
-<img src="twitter.png" width="30" height="30" class="social_footer" alt="Twitter, Apache License 2.0: https://commons.wikimedia.org/wiki/File:Twitter_font_awesome.svg">
-<img src="pinterest.png" width="30" height="30" class="social_footer" alt="Author Dave Gandy, OFL: https://commons.wikimedia.org/wiki/File:Pinterest_font_awesome.svg">
-<img src="youtube.png" width="30" height="30" class="social_footer" alt="Author Dave Gandy, OFL: https://commons.wikimedia.org/wiki/File:YouTube_font_awesome.svg">
+
 </footer>
 
 	<!-- jQuery and Bootstrap JS libraries -->
